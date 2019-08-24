@@ -1,6 +1,18 @@
 import java.security.Principal;
 import java.util.Scanner;
 
+/*
+* Wumpus 1.0 Rubén Tortosa Zamora
+* Java de 0 a Wumpus en 18h, not bad! XD
+* Seguro que se puede refactorizar mucho más y un mejor uso de las funciones
+* Notas: 
+* - Existe la posibilidad de aparecer y morir diréctamente pero lo dejamos para la versión 1.1
+* - Desarrollado en VS Code y compilado ejecutado por terminal 
+* - Exite el comando oculto 'mapa' que muestra el mapa
+*/
+
+
+
 // props individual cell
 class cell {
     boolean gold = false;
