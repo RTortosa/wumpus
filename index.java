@@ -424,7 +424,7 @@ class index {
                 if (jugador.fire()) {
                     System.out.println("Dispara tu flecha en la dirección marcada esperando abatir a tu presa...");
                     if (checkHit(jugador, tablero, cols, rows)) {
-                        System.out.println("Lo has conseguido! Has derribado al Wumpus! Enorabuena! Del Wumpus ahora sólo queda su hedor");
+                        System.out.println("Lo has conseguido! Has derribado al Wumpus! Enhorabuena! Del Wumpus ahora sólo queda su hedor");
                     } else {
                         System.out.println("Escuchas como la flecha se estrella contra la pared. Parece que el wumpus no estaba en esa dirección");
                     }
